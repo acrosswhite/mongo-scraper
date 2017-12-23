@@ -1,7 +1,7 @@
 
 <!--Notes Modal-->
 
-<div class="modal fade modalNote" id="noteModal{{this._id}}" tabindex="-1" role="dialog">
+<div class="modal modalNote" id="noteModal{{this._id}}" tabindex="-1" role="dialog">
     <div class="modal-dialog" role="document">
         <div class="modal-content">
             <div class="modal-header">
@@ -14,7 +14,7 @@
                         <div class="panel panel-default">
                             <div class="panel-body">
                                 <p class="previousNotes"> {{this.body}}</p>
-                                <button type="button" class="btn btn-danger deleteNote" data-note-id={{this._id}} data-article-id={{this.article}}>X</button>
+                                <button type="button" class="btn deleteNote" data-note-id={{this._id}} data-article-id={{this.article}}>X</button>
                             </div>
                         </div>
                     {{/each}}

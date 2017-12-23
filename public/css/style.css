@@ -1,6 +1,6 @@
 
 #bodyimage {
-    background-image: url("/images/news.jpg");
+    background-image: url("/images/newspaperlong.jpg");
     padding-top: 70px;
 }
 
@@ -15,4 +15,17 @@
 
 #scrape {
     margin: 8px 0px;
+}
+
+.addNote,
+.scrapeItems,
+.save {
+	background-color: #89c697;
+	color: white;
+}
+
+.delete,
+.deleteNote {
+	background-color: #ffab91;
+	color: white;
 }
